@@ -1,0 +1,223 @@
+body {
+  font-family: "Raleway", sans-serif;
+  background-image: url("gympic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+#navbar::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.7;
+}
+#box1 {
+  /* display: flex; */
+  color: white;
+
+  /* display: inline-block; */
+  /* position: absolute; */
+  /* top: 0px;
+    left: 10px; */
+}
+#box1 img {
+  width: 56px;
+  padding: 0px;
+  padding-top: 5px;
+}
+#navbar ul {
+  display: flex;
+  color: white;
+  /* justify-content: center;
+    align-items:center; */
+}
+#navbar ul li {
+  list-style: none;
+}
+#navbar ul li a {
+  display: block;
+  color: white;
+  padding: 10px 45px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+#box3 a {
+  color: white;
+}
+
+#home {
+  display: flex;
+  /* position: relative; */
+  border: 2px solid white;
+  height: 300px;
+  width: 1000px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+h1 {
+  text-align: center;
+}
+
+/* .abc{
+    height: 300px;
+    width: 200px;
+} */
+#services a {
+  text-decoration: none;
+  color: white;
+}
+
+#services {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+}
+
+#services .box {
+  border: 2px solid white;
+  text-align: center;
+  background-color: #6b4a4a;
+  transition: transform 0.7s ease-in-out;
+}
+#services .box:hover {
+    transform: scale(1.1);
+}
+
+#section2 .box img {
+  display: block;
+  margin: auto;
+  height: 140px;
+  transition: transform 0.5s ease-in-out;
+}
+#section2 .box img:hover{
+    transform: scale(1.35);
+}
+
+/* #box2{
+    display: flex;
+    color:white;
+    /* display: block; */
+/* width: 33%; */
+/* top: 0px; */
+/* margin: 5px auto; */
+/* } */
+
+/* #navbar li{
+   
+    list-style-type: none;
+}
+#navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    
+}*/
+#navbar li a:hover {
+  font-weight: bolder;
+  color: black;
+  background-color: rgba(207, 205, 205, 0.342);
+}
+/*
+#box3{
+    color:white;
+    
+    /* position: absolute; */
+/* top: 9px;
+    right: 10px; */
+
+/* } */
+/* #box3 a{
+    color: white;
+    text-decoration: none;
+}
+#box3 a:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+    color: black;
+    padding: 15px;
+    background-color: rgba(207, 205, 205, 0.342);
+} */
+
+/* Creating my Comment box */
+
+/* #app::before{
+    content: "";
+    background-image: url("gympic3.png"); 
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+} */
+/* #app{
+    background-repeat: no-repeat;
+} */
+#heading{
+    text-align: center ;
+}
+.container {
+  max-width: 640px;
+  margin: 30px auto;
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.comment {
+  display: block;
+  transition: all 1s;
+  color: black;
+  font-weight: bolder;
+}
+.commentClicked {
+  min-height: 0px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.container textarea {
+  width: 100%;
+  border: none;
+  background: #e8e8e8;
+  padding: 5px 10px;
+  height: 50%;
+  border-radius: 5px 5px 0px 0px;
+  border-bottom: 2px solid #016ba8;
+  transition: all 0.5s;
+  margin-top: 15px;
+}
+
+button.primaryContained {
+  background: #016ba8;
+  color: #fff;
+  padding: 10px 10px;
+  border: none;
+  margin-top: 0px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+  transition: 1s all;
+  font-size: 10px;
+  border-radius: 5px;
+}
+
+button.primaryContained:hover {
+  background: #9201a8;
+}
